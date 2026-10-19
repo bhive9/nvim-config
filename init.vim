@@ -45,7 +45,9 @@ set mouse=a
 set ignorecase
 set smartcase
 set noshowmode
-set signcolumn=number
+
+set number
+set signcolumn=yes
 
 
 call plug#begin('~/.config/nvim/plugged')
